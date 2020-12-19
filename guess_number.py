@@ -1,5 +1,9 @@
 import random
-number = random.randint(0,100)
+min = input("請決定數值起始範圍:")
+min = int(min)
+max = input("請決定數值終止範圍:")
+max = int(max)
+number = random.randint(min,max)
 print(number)
 guess_times = 0
 while True:
